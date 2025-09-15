@@ -1,0 +1,74 @@
+Commands of ubuntu
+1.pwd
+  -Show the current location(path of working directory)
+
+2.whoami
+  -Gives the name of user
+
+3.ls
+  -Gives the existing files
+
+4.mkdir username 
+  -Creates the directory
+
+5.rmdir username
+  -Delete the diectory
+ 
+6.ls -lt
+  -List of directory with details of directory
+
+7.ls -ltr
+  -List in reverse order
+
+8.date
+  - For date and time
+
+9.date +%D
+  -For exact date
+
+10.date +%T
+  -For exact time
+
+11.date +%H:%M
+  -For hours and minute
+
+12.touch filename with extension
+  -For creating file
+
+13.nano filename with extension
+  -For opening editor
+
+14.ctrl X (y -Yes)  
+  -To exit editor 
+
+15.cat filename with extension
+  -To check the changes done in editor
+
+16.cd ..
+  -To exit the created folder
+
+17. cd filename/foldername
+  -To enter the file or folder 
+
+18.mv filename with extension directoryname
+  -To move the file
+
+19.cp filename with extension root/directoryname
+  -To copy the file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

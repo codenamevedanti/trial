@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Timer</title>
+  <style>
+    #timer {
+      font-size: 2em;
+      font-family: monospace;
+      color: #2c3e50;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>⏱️ Live Timer</h2>
+  <div id="timer">00:00:00</div>
+
+  <script>
+    function updateTimer() {
+      const now = new Date();
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      const seconds = String(now.getSeconds()).padStart(2, '0');
+      document.getElementById("timer").textContent = `${hours}:${minutes}:${seconds}`;
+    }
+
+    // Callback function runs every 1000ms (1 second)
+    setInterval(updateTimer, 1000);
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Timer</title>
+  <style>
+    #timer {
+      font-size: 2em;
+      font-family: monospace;
+      color: #2c3e50;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>⏱️ Live Timer</h2>
+  <div id="timer">00:00:00</div>
+
+  <script>
+    function updateTimer() {
+      const now = new Date();
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      const seconds = String(now.getSeconds()).padStart(2, '0');
+      document.getElementById("timer").textContent = `${hours}:${minutes}:${seconds}`;
+    }
+
+    // Callback function runs every 1000ms (1 second)
+    setInterval(updateTimer, 1000);
+  </script>
+</body>
+</html>

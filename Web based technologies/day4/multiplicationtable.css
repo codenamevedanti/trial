@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+td,
+th {
+    border: 1px solid blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: color-mix(in srgb, blueviolet 50%, white 50%);
+}

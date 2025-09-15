@@ -1,0 +1,21 @@
+body {
+    background-color: yellow;
+    font-family: cursive;
+}
+
+.heading {
+    text-align: center;
+    color: #FF0000;
+}
+
+.para {
+    text-align: justify;
+    color: blue;
+}
+
+.Mediatation {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/029/333/096/large_2x/ai-generative-of-a-man-practicing-mindfulness-and-meditation-in-a-peaceful-natural-environment-sony-a7s-realistic-image-ultra-hd-high-design-very-detailed-free-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90px;
+}

@@ -1,0 +1,11 @@
+#user{
+    background-color: aliceblue;
+    border: solid black  ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+};
+
+#label{
+    color:blue;
+    border: solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
