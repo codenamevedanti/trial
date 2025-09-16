@@ -1,0 +1,19 @@
+#d1 {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 1px;
+    font: 600;
+    text-align: center;
+}
+
+#d2 {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 1px;
+    font: 600;
+    text-align: center;
+}
