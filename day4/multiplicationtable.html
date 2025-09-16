@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table</title>
+    <link rel="stylesheet" href="multiplicationtable.css">
+</head>
+<body>
+    <input type="number" id="numInput" placeholder="Enter a number">
+    <button onclick="generatetable()">Enter</button>
+    <div id="tablecontainer"></div>
+
+    <script>
+        function generatetable() 
+        {
+            const num = parseInt(document.getElementById("numInput").value);
+            if (isNaN(num)) {
+                alert("Please enter a valid number.");
+                return;
+            }
+
+            let table = "<table border='1'>";
+            table += `
+                <tr>
+                    <th>Number</th>
+                    <th>x</th>
+                    <th>Multiplier</th>
+                    <th>=</th>
+                    <th>Result</th>
+                </tr>
+            `;
+
+            for (let i = 1; i <= 10; i++) {
+                table += `
+                    <tr>
+                        <td>${num}</td>
+                        <td>x</td>
+                        <td>${i}</td>
+                        <td>=</td>
+                        <td>${num * i}</td>
+                    </tr>
+                `;
+            }
+
+            table += "</table>";
+            document.getElementById("tablecontainer").innerHTML = table;
+        }
+    </script>
+</body>
+</html>
